@@ -5,7 +5,6 @@ body{
   height: 100vh;
   width: 100vw;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: hsl(212, 45%, 89%);
@@ -13,29 +12,41 @@ body{
 
 /* Style */
 .main{
-  height: 68%;
+  height: 73%;
   width: 20%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid orangered;
+}
+.code{
+  height: 100%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   background: hsl(0, 0%, 100%);
   font-family: 'Outfit', sans-serif;
-  padding: 1%;
   border: 1px solid black;
 }
+
 img{
+  height: 60%;
+  width: 90%;
   border: 1px solid purple;
 }
 section{
-  padding: 0 4%;
   border: 1px solid teal;
 }
 .attribution{
-  width: 18%;
-  font-size: 0.85rem;
+  width: 90%;
+  font-size: 0.75rem;
   border: 1px solid blue;
 }
-.main,img{
+.code,img{
   border-radius: 4%;
 }
 
@@ -48,7 +59,7 @@ h1{
 p{
   color: hsl(220, 15%, 55%);
   font-weight: 400;
-  font-size: 0.80rem;
+  font-size: 0.83rem;
 }
 a{
   color: hsl(218, 44%, 22%);
@@ -58,9 +69,10 @@ a:hover{
   color: hsl(0, 0%, 100%);
 }
 
+
 /* Mobile */
-@media screen and (max-width: 360px){
-  .main{
+/* @media screen and (max-width: 360px){
+  .code{
     height: 52%;
     width: 75%;
     padding: 4%;
@@ -74,7 +86,7 @@ a:hover{
 }
 
 @media screen and (min-width: 361px) and (max-width: 375px){
-  .main{
+  .code{
     height: 62%;
     width: 75%;
     padding: 4%;
@@ -88,7 +100,7 @@ a:hover{
 }
 
 @media screen and (min-width: 376px) and (max-width: 412px){
-  .main{
+  .code{
     height: 48%;
     width: 75%;
     padding: 4%;
@@ -102,7 +114,7 @@ a:hover{
 }
 
 @media screen and (min-width: 413px) and (max-width: 810px){
-  .main{
+  .code{
     height: 65%;
     width: 75%;
     padding: 4%;
@@ -113,4 +125,4 @@ a:hover{
     font-size: 0.85rem;
     border: 1px solid blue;
   }
-}
+} */
