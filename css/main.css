@@ -24,7 +24,6 @@ body{
   border: 1px solid black;
 }
 img{
-  height: 
   border: 1px solid purple;
 }
 section{
@@ -32,7 +31,7 @@ section{
   border: 1px solid teal;
 }
 .attribution{
-  width: 20%;
+  width: 18%;
   font-size: 0.85rem;
   border: 1px solid blue;
 }
@@ -57,4 +56,61 @@ a{
 }
 a:hover{
   color: hsl(0, 0%, 100%);
+}
+
+/* Mobile */
+@media screen and (max-width: 360px){
+  .main{
+    height: 52%;
+    width: 75%;
+    padding: 4%;
+    justify-content: space-between;
+  }
+  .attribution{
+    width: 73%;
+    font-size: 0.85rem;
+    border: 1px solid blue;
+  }
+}
+
+@media screen and (min-width: 361px) and (max-width: 375px){
+  .main{
+    height: 62%;
+    width: 75%;
+    padding: 4%;
+    justify-content: space-between;
+  }
+  .attribution{
+    width: 73%;
+    font-size: 0.85rem;
+    border: 1px solid blue;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 412px){
+  .main{
+    height: 48%;
+    width: 75%;
+    padding: 4%;
+    justify-content: space-between;
+  }
+  .attribution{
+    width: 73%;
+    font-size: 0.85rem;
+    border: 1px solid blue;
+  }
+}
+
+@media screen and (min-width: 413px) and (max-width: 810px){
+  .main{
+    height: 65%;
+    width: 75%;
+    padding: 4%;
+    justify-content: space-between;
+  }
+  .attribution{
+    width: 73%;
+    font-size: 0.85rem;
+    border: 1px solid blue;
+  }
 }
