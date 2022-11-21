@@ -12,13 +12,12 @@ body{
 
 /* Style */
 .main{
-  height: 73%;
-  width: 20%;
+  height: 426.5px;
+  width: 268px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid orangered;
 }
 .code{
   height: 100%;
@@ -30,21 +29,16 @@ body{
   text-align: center;
   background: hsl(0, 0%, 100%);
   font-family: 'Outfit', sans-serif;
-  border: 1px solid black;
 }
 
 img{
   height: 60%;
   width: 90%;
-  border: 1px solid purple;
-}
-section{
-  border: 1px solid teal;
 }
 .attribution{
-  width: 90%;
+  width: 240px;
+  padding-top: 2%;
   font-size: 0.75rem;
-  border: 1px solid blue;
 }
 .code,img{
   border-radius: 4%;
@@ -68,61 +62,3 @@ a{
 a:hover{
   color: hsl(0, 0%, 100%);
 }
-
-
-/* Mobile */
-/* @media screen and (max-width: 360px){
-  .code{
-    height: 52%;
-    width: 75%;
-    padding: 4%;
-    justify-content: space-between;
-  }
-  .attribution{
-    width: 73%;
-    font-size: 0.85rem;
-    border: 1px solid blue;
-  }
-}
-
-@media screen and (min-width: 361px) and (max-width: 375px){
-  .code{
-    height: 62%;
-    width: 75%;
-    padding: 4%;
-    justify-content: space-between;
-  }
-  .attribution{
-    width: 73%;
-    font-size: 0.85rem;
-    border: 1px solid blue;
-  }
-}
-
-@media screen and (min-width: 376px) and (max-width: 412px){
-  .code{
-    height: 48%;
-    width: 75%;
-    padding: 4%;
-    justify-content: space-between;
-  }
-  .attribution{
-    width: 73%;
-    font-size: 0.85rem;
-    border: 1px solid blue;
-  }
-}
-
-@media screen and (min-width: 413px) and (max-width: 810px){
-  .code{
-    height: 65%;
-    width: 75%;
-    padding: 4%;
-    justify-content: space-between;
-  }
-  .attribution{
-    width: 73%;
-    font-size: 0.85rem;
-    border: 1px solid blue;
-  }
-} */
