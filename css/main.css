@@ -21,8 +21,8 @@ body{
   justify-content: center;
 }
 .code{
-  height: 462.5px;
-  width: 268px;
+  height: 390px;
+  width: 254.6px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,8 +32,8 @@ body{
 }
 
 img{
-  height: 237.117px;
-  width: 241.2px;
+  height: 235px;
+  width: 235px;
 }
 .attribution{
   width: 240px;
